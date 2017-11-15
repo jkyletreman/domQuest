@@ -4,6 +4,15 @@
   color: white;
 }
 
-span {
+.insert {
   padding-left: 2%;
+}
+
+button {
+  margin-bottom: 5% !important;
+}
+
+.miniScore {
+  color: rgb(205, 106, 26);
+
 }
