@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
 
+<head>
+  <meta charset="utf-8">
+  <title>Dom Quest</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
 
+<body>
+  <section class='row container'>
+    <h1>Dom Quest</h1>
+    <h3>Your Cash:<span id="insert"></span></h3>
 
-    <script type="text/javascript" src="./app.js"></script>
-  </body>
+    <div class="col s4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Small Quest</span>
+          <p>Earns 10-20 gold!</p>
+        </div>
+        <div class="card-action">
+          <button class="btn waves-effect waves-light smallQ" name="action">
+  <i class="material-icons center">directions_walk</i>
+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Long Quest</span>
+          <p>Earns 30-50 Gold!</p>
+        </div>
+        <div class="card-action">
+          <button class="btn waves-effect waves-light largeQ" name="action">
+  <i class="material-icons center ">directions_run</i>
+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Boss Fight</span>
+          <p>Earns 70-100 GOLD!!</p>
+        </div>
+        <div class="card-action">
+          <button class="btn waves-effect waves-light bossQ" name="action">
+  <i class="material-icons center ">directions_bike</i>
+</button>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="./app.js"></script>
+</body>
+
 </html>
